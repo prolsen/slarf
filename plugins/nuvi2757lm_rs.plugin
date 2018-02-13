@@ -1,0 +1,7 @@
+[Documentation]
+Plugin = nuvi2757lm_rs
+Author = Patrick Olsen
+Version = 0.1
+Reference = http://sysforensics.org
+PrintFields = "{{ rank }}|{{ string }}"
+Description = Parses the searches table from the recent_searches.db on the Garming nuvi 2757LM GPS.

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <h1>Garmin Nuvi 2757LM</h1>
+        <h3>Database: Recent Searches
+        <BR>
+        Table: Searches</h3>
+</head>
+<body>
+    <h2>Rank|Search String</h2>
+    {% block body %}
+    <ul>
+        {% for entry in results %}
+            <li>{{ entry[0] }}|{{ entry[1] }}</li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
+</body>
+</html>
